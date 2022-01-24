@@ -42,8 +42,21 @@ main {
 }
 
 .text-input {
-    
-}    
+    position: absolute;
+    width: 680px;
+    height: 48px;
+    left: 70px;
+    top: 168px;
+    font-family: initial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.2em;
+}
+
 
 
 img {
