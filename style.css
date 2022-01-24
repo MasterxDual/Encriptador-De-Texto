@@ -5,15 +5,47 @@ body {
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 main {
     width: 80vw;
     margin: auto;
     display: flex;
     justify-content: center;
 }
+
 .titulo {
-    
+    padding: 15px;
+    width: 30vw;
+    margin: auto;
 }
+
+.formbox {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #f3f5fc;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 2em;
+}
+
+.msgbox {
+    position: absolute;
+    width: 510px;
+    height: 1044px;
+    left: 1000px;
+    top: 60px;
+    background: white;
+    border-radius: 2em;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.text-input {
+    
+}    
+
+
 img {
     position: left;
     left: 36.67%;
@@ -22,6 +54,7 @@ img {
     bottom: 0%;
     background-position: #0A3871;
 }
+
 .titulo {
     position: absolute;
     width: 680px;
@@ -35,16 +68,11 @@ img {
     line-height: 150%;
     color: #0a3871;
 }
-#input-texto {
 
-}
 image {
     position: absolute;
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
-}
-.form box {
-
 }
