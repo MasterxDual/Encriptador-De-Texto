@@ -7,23 +7,27 @@
     <title>Encriptador de texto</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    <body>
+    <body>  
         <img src ="images/Vector.svg" alt="Alura Latam">
         <h1 class="titulo">Ingrese el texto aquí</h1>
         <main class="main">
             <section class="formbox">
                 <form action="">
-                    <label for="input-texto" id="aclaración">Sólo letras minúsculas y sin acentos</label>
-                    <img src="images/Exclamación.svg">
-                     <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese  el texto aquí">
-                    <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
-                    <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+                    <div class="aclaracion">
+                        <label for="input-texto"> Sólo letras minúsculas y sin acentos </label>
+                        <img src="images/Exclamación.svg">
+                    </div>
+                    <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese  el texto aquí">
+                        <div class="botones">
+                            <input class="btn1" type="submit" value="Encriptar" id="btn-encriptar">
+                            <input class="btn2" type="submit" value="Desencriptar" id="btn-desencriptar">
+                         </div>
                 </form>
             </section>
             <section class="msgbox">
                 <h2>Mensaje encriptado:</h2>
                 <input class="text-input2" type="text" id="msg">
-                <input class="btn2" type="submit" value="copiar" id="btn-copy">
+                <input class="btn3" type="submit" value="copiar" id="btn-copy">
             </section>
         </main>
         <script src="main.js"></script>
