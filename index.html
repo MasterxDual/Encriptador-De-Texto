@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ME=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>  
+        <img src ="images/Vector.svg" class="img">
+        <img src ="images/Muñeco.svg" id="muneco">
+        <main class="main">
+            <section class="formbox">
+                    <div class="aclaracion">
+                        <label for="input-texto"> Sólo letras minúsculas y sin acentos </label>
+                    </div>
+                        <img src="images/Exclamación.svg" id="img">                  
+                    <textarea id="input-texto" class="text-input" name="textarea" rows="10" cols="50" onchange = "this.value=this.value.toLowerCase();" placeholder="Ingrese el texto aquí" ></textarea>
+                    <div class="botones">
+                            <button onclick = "botonEncriptado()" class="btn1" placeholder="">Encriptar</button>
+                            <button onclick = "botonDesencriptado()" class="btn2">Desencriptar</button>
+                    </div>
+            </section>
+            <section class="msgbox">
+                <h2 id="titulo2">Mensaje encriptado:</h2>
+                <textarea id="input-texto2" class="text-input2" name="textarea" rows="100" cols="500" onchange="this.value=this.value.toLowerCase();" placeholder="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar"></textarea>
+                <button id ="btn-copy" onclick = "botonCopiar()">Copiar</button>
+                <button id ="btn-paste" onclick = "botonPegar()">Pegar</button>
+            </section>
+        </main>
+        <script src="main.js"></script>
+    </body>
+<footer>
+Todos los derechos reservados | © 2022 By Agustín Eduardo Brambilla
+</footer>
+</html>
